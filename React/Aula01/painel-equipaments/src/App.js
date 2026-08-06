@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import EquipamentosCard from "./components/EquipamentoCard";
+import  { ordensEquipamento } from "./data/ordensEquipamento";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return(
+    <body style = {{ backgroundColor: "#4A5568" }}>
+     <div style ={{ padding: "36px"}}>
+        <h1 style = {{  textAlign: "center", color: "white" }}>Painel de Equipamentos</h1>
+        {ordensEquipamento.map(card =>(
+          <EquipamentosCard key = {card.id} card = {card}/>
+        ))}
+     </div>
+    </body>
+
   );
 }
 
