@@ -1,0 +1,197 @@
+*/ Estilos globais e layout */
+body {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ background-color: #f4f6f8;
+ margin: 0;
+ padding: 0;
+}
+
+
+.app-container {
+ max-width: 600px;
+ margin: 40px auto;
+ padding: 24px;
+ background-color: #ffffff;
+ border-radius: 8px;
+ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+.title {
+ font-size: 22px;
+ color: #1a1a1a;
+ margin-top: 0;
+ margin-bottom: 24px;
+ border-bottom: 2px solid #eaeaea;
+ padding-bottom: 12px;
+}
+
+
+/* Lista de Defeitos */
+.defect-list {
+ display: flex;
+ flex-direction: column;
+ gap: 12px;
+ margin-bottom: 24px;
+}
+
+
+/* Item individual de defeito (Card) */
+.defect-item {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 14px 18px;
+ background-color: #ffffff;
+ border: 1px solid #e0e0e0;
+ border-radius: 6px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+}
+
+
+.defect-info {
+ font-size: 16px;
+ font-weight: 600;
+ color: #2c3e50;
+}
+
+
+.btn-register {
+ background-color: #007bff;
+ color: #ffffff;
+ border: none;
+ padding: 8px 16px;
+ font-size: 14px;
+ font-weight: 500;
+ border-radius: 4px;
+ cursor: pointer;
+ transition: background-color 0.2s ease;
+}
+
+
+.btn-register:hover {
+ background-color: #0056b3;
+}
+
+
+/* Resumo / Renderização condicional */
+.summary-container {
+ padding: 14px;
+ border-radius: 6px;
+ text-align: center;
+ font-size: 15px;
+}
+
+
+.summary-empty {
+ background-color: #f8f9fa;
+ color: #6c757d;
+ border: 1px dashed #cccccc;
+}
+
+
+.summary-active {
+ background-color: #e8f4fd;
+ color: #0c5460;
+ border: 1px solid #bbee00;
+ font-weight: 600;
+}
+* Estilos globais e layout */
+body {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ background-color: #f4f6f8;
+ margin: 0;
+ padding: 0;
+}
+
+
+.app-container {
+ max-width: 600px;
+ margin: 40px auto;
+ padding: 24px;
+ background-color: #ffffff;
+ border-radius: 8px;
+ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+.title {
+ font-size: 22px;
+ color: #1a1a1a;
+ margin-top: 0;
+ margin-bottom: 24px;
+ border-bottom: 2px solid #eaeaea;
+ padding-bottom: 12px;
+}
+
+
+/* Lista de Defeitos */
+.defect-list {
+ display: flex;
+ flex-direction: column;
+ gap: 12px;
+ margin-bottom: 24px;
+}
+
+
+/* Item individual de defeito (Card) */
+.defect-item {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 14px 18px;
+ background-color: #ffffff;
+ border: 1px solid #e0e0e0;
+ border-radius: 6px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+}
+
+
+.defect-info {
+ font-size: 16px;
+ font-weight: 600;
+ color: #2c3e50;
+}
+
+
+.btn-register {
+ background-color: #007bff;
+ color: #ffffff;
+ border: none;
+ padding: 8px 16px;
+ font-size: 14px;
+ font-weight: 500;
+ border-radius: 4px;
+ cursor: pointer;
+ transition: background-color 0.2s ease;
+}
+
+
+.btn-register:hover {
+ background-color: #0056b3;
+}
+
+
+/* Resumo / Renderização condicional */
+.summary-container {
+ padding: 14px;
+ border-radius: 6px;
+ text-align: center;
+ font-size: 15px;
+}
+
+
+.summary-empty {
+ background-color: #f8f9fa;
+ color: #6c757d;
+ border: 1px dashed #cccccc;
+}
+
+
+.summary-active {
+ background-color: #e8f4fd;
+ color: #0c5460;
+ border: 1px solid #bbee00;
+ font-weight: 600;
+}
+
