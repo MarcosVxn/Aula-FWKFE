@@ -1,0 +1,41 @@
+import { useState } from "react";
+import "./App.css";
+
+
+    function Square({valor}){
+
+        const [valor, setValor] = useState(null);
+
+        function handleClick(){
+            setValor("X");
+        }
+        return <button 
+        className="square"
+        onClick="{handleClick}"
+        >
+                {valor}
+        </button>
+    }
+
+export default function Tabuleiro(){
+
+    return(
+        <>
+        <div>
+            <button className="Square">1</button>
+            <button className="Square">2</button>
+            <button className="Square">3</button>            
+        </div>
+        <div>
+            <button className="Square">4</button>
+            <button className="Square">5</button>
+            <button className="Square">6</button>            
+        </div>
+        <div>
+            <button className="Square">7</button>
+            <button className="Square">8</button>
+            <button className="Square">9</button>            
+        </div>
+        </>
+    )
+}
