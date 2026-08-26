@@ -25,6 +25,24 @@ export default function App() {
     ]);
     setPosseTimeA(!posseTimeA);
   }
+  function desfazerJogada(){
+    if (
+      historico === 0
+    )
+    return
+
+    const ultimajogada = historico.length - 1
+
+    if(ultimajogada === "Time A"){
+      setPontosA =  - ultimajogada.pontosA
+    }else{
+      setPontosB = - ultimajogada.pontosB
+    }
+
+    setHistorico (historico.slice(0,-1))
+
+    setPosseTimeA = ultimajogada.posseTimeA === "Time A"
+  }
 
   function zerarPlacar(){
     setPosseTimeA(true);
