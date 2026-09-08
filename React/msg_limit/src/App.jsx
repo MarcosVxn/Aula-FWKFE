@@ -1,5 +1,5 @@
 import Curtida from '../src/components/curtidas.jsx'
-import '..src/App.css'
+import '../src/App.css'
 
 function App() {
   return (
